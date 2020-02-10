@@ -1,4 +1,4 @@
-﻿
+
 <!doctype html>
 <html>
 <head>
@@ -38,10 +38,23 @@ h1{
 <div class="bb">
 <h2>李迪</h2>
 <div class="bb_text">
-<div id="code">有人说爱情可以让人失去生命，但我不会。我要留着这条命为你擦去嘴角的面渣；我要留着这条命去买你喜欢的玫瑰花；我要留着这条命拂去你眼角的泪水；我要留着这条命去撑起你的快乐天堂；如果有一天你找到了心中的他，我会爬上山崖，为你去摘那朵你心中的花！我想和你一起过平淡的生活......清晨可以看到你的笑脸和餐桌上的牛奶煎蛋，然后一起出门，很努力地工作，下班去超市买菜，一起回家做晚饭，夕阳下牵手散步......一直到老！</div></div>
-<p class="bb_myname">— 徐良<br/>
+<div id="code">
+  <p>有人说爱情可以让人失去生命，但我不会。我要留着这条命为你擦去嘴角的面渣；我要留着这条命去买你喜欢的玫瑰花；我要留着这条命拂去你眼角的泪水；我要留着这条命去撑起你的快乐天堂！我想牵的手，是可以走到的白头，我想挽的肩，是可以依靠的理由，我想唱的歌，是可以深情的眼眸，我想说的话，是可以呵护的温柔，爱你，总觉得不够。我想和你一起过平淡的生活......清晨可以看到你的笑脸和餐桌上的牛奶煎蛋，然后一起出门，很努力地工作，下班去超市买菜，一起回家做晚饭，夕阳下牵手散步...... </p>
+  <p>一直到老!</p>
+</div>
+</div>
+<p class="bb_myname">———徐良<br/>
 </p>
-</div></div>
+</div>
+<div class="table">
+		
+			<a href="./record.html">
+            <img border="0" src="./images/timg.png" alt="" width="146" height="134"></a>
+		  
+	</div>
+
+</div>
+	
 <script>
 Element.prototype.typewriter=function(a){
 			var d = this,
@@ -55,7 +68,7 @@ Element.prototype.typewriter=function(a){
 				} else {
 					b++
 				}
-				d.innerHTML=c.substring(0, b) + (b & 1 ? "_" : "");
+				d.innerHTML=c.substring(0, b) + (b & 1 ? "" : "");
 				if (b >= c.length) {
 					clearInterval(e)
 				}
@@ -152,8 +165,7 @@ function render(a){
     }
   }
 }
-
-
+              
 
 onResize();
 window.addEventListener("mousemove", onMove);
@@ -161,7 +173,9 @@ window.addEventListener("touchmove", onMove);
 window.addEventListener("resize", onResize);
 requestAnimationFrame(render);
 </script>
-<audio src="http://www.tanganbin.cn/mp3/On The Night Like This.mp3" autoplay loop></audio>
+	
+<audio src="./images/On The Night Like This.mp3" autoplay loop type="audio/mpeg"></audio>
+<audio src="./images/On The Night Like This.ogg" autoplay loop type="audio/ogg"></audio>
 <div style="display:none;">www.dyboy.cn</div>
 <script src="http://vip.dyboy.cn/js/tj.js"></script>
 </body>
